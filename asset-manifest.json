@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/konsultxx/static/css/main.eaf32a71.css",
-    "main.js": "/konsultxx/static/js/main.48e635a7.js",
+    "main.js": "/konsultxx/static/js/main.e2ce00ba.js",
     "static/js/787.69a1309e.chunk.js": "/konsultxx/static/js/787.69a1309e.chunk.js",
     "static/media/wrapper6.jpg": "/konsultxx/static/media/wrapper6.9a8ef093ce5e1de1897a.jpg",
     "static/media/mainwrapper.jpg": "/konsultxx/static/media/mainwrapper.0226ed618e6905db7d15.jpg",
@@ -9,11 +9,11 @@
     "static/media/contactUs.jpg": "/konsultxx/static/media/contactUs.48bf46d9753519dfb6a0.jpg",
     "index.html": "/konsultxx/index.html",
     "main.eaf32a71.css.map": "/konsultxx/static/css/main.eaf32a71.css.map",
-    "main.48e635a7.js.map": "/konsultxx/static/js/main.48e635a7.js.map",
+    "main.e2ce00ba.js.map": "/konsultxx/static/js/main.e2ce00ba.js.map",
     "787.69a1309e.chunk.js.map": "/konsultxx/static/js/787.69a1309e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eaf32a71.css",
-    "static/js/main.48e635a7.js"
+    "static/js/main.e2ce00ba.js"
   ]
 }
