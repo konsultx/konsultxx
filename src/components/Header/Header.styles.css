@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+.header-component{
+  /* background-color:  rgb(225, 229, 231, 0.4); */
+  background-color:rgb(27, 113, 174, 0.7); 
+  /* background-color:rgba(23, 45, 218, 0.7); */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px;
+}
+.header-content{
+  width: 1400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.headerLogo{
+  width: 500px;
+}
+
+.nav-container ul{
+  display: flex;
+  align-items: center;
+  position: sticky;
+}
+.nav-container ul li{
+list-style: none;
+margin: 10px 30px; 
+font-size: 25px;
+}
+.nav-list{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.5px;
+  color: rgb(252, 241, 241);
+  background:
+    linear-gradient(
+      to right,
+      rgba(100, 200, 200, 1),
+      rgba(100, 200, 200, 1)
+    ),
+    linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+  );
+  background-size: 100% 3px, 0 3px;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 400ms;
+}
+.nav-list:hover {
+  background-size: 0 3px, 100% 3px;
+}
+@media screen and (max-width: 1200px) {
+  .header-content{
+    width: 90%;
+  }
+  .headerLogo{
+    width: 300px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .header-content{
+    width: 99%;
+  }
+  .headerLogo{
+    width: 300px;
+  }
+  .nav-container ul li{
+    list-style: none;
+    margin: 10px 20px; 
+    font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 768px){
+  .header-content{
+    width: 99%;
+  }
+  .header-component{
+    padding: 30px;
+  }
+  .headerLogo{
+    width: 200px;
+  }
+  .nav-container ul li{
+  margin: 10px 20px; 
+  font-size: 18px;
+  }
+}
+@media screen and (max-width: 600px){
+  .header-content{
+    width: 99%;
+  }
+  .headerLogo{
+    width: 170px;
+  }
+  .nav-container ul li{
+  margin: 10px 10px; 
+  font-size: 16px;
+  }
+}
+@media screen and (max-width: 480px){
+  .header-component{
+    padding: 5px;
+  }
+  .headerLogo{
+    width: 150px;
+  }
+  .nav-container ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+  }
+}

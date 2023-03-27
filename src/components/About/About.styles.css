@@ -1,0 +1,197 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.about-container{
+ background-color: aliceblue;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 20px;
+  border-bottom-left-radius: 30%;
+}
+
+.about-heading-container{
+  margin: auto;
+  width: 1400px;
+  padding-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly; 
+}
+.about-content{
+  margin-right: 30px;
+}
+.about-heading{
+font-size: 70px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: 500;
+}
+.about-para{
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: left;
+  line-height: 35px;
+  text-align: justify;
+}
+.about-image{
+  width: 700px;
+  border-radius: 200px 100px 200px 0px;
+}
+
+.story-content{
+  padding: 30px;
+  text-align: center;
+}
+.about-partner-container{
+  margin: auto;
+  text-align: center;
+  width: 1400px;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+.about-partner-content{
+  margin-bottom: 30px;
+}
+.about-partner-heading{
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.about-partner-para{
+  font-family: sans-serif;
+  opacity: 0.8;
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: left;
+  line-height: 35px;
+}
+@media screen and (max-width: 1200px){
+ 
+   .about-heading-container{
+     width: 90%;
+   }
+   .about-para{
+     font-size: 22px;
+     line-height: 30px;
+   }
+   .about-image{
+     width: 60%;
+     border-radius: 170px 100px 170px 0px;
+   }
+   .about-partner-container{
+     width: 90%;
+   }
+   .about-partner-content{
+     margin-bottom: 30px;
+   }
+}
+@media screen and (max-width: 992px){
+  .about-container{
+     border-bottom-left-radius: 0%;
+   }
+   
+   .about-heading-container{
+     width: 90%;
+     display: flex;
+     flex-direction: column;
+   }
+   .about-content{
+     margin-right: 30px;
+     margin-bottom: 20px;
+   }
+
+   .about-image{
+     width: 99%;
+     border-radius: 200px 100px 200px 0px;
+   }
+   .about-partner-container{
+     width: 90%;
+   }
+   .about-partner-para{
+    margin: 10px;
+     font-size: 22px;
+     text-align: center;
+     text-align: justify;
+   }
+}
+@media screen and (max-width: 768px){
+   .about-heading-container{
+     width: 90%;
+   }
+   .about-heading{
+  text-align: center;
+   font-size: 60px;
+   margin-bottom: 15px;
+   }
+   .about-para{
+     font-size: 24px;
+     text-align: justify;
+   }
+   .about-partner-container{
+     width: 90%;
+     margin-bottom: 30px;
+   }
+   .about-partner-heading{
+     font-size: 45px;
+   }
+}
+@media screen and (max-width: 600px){
+  .about-container{
+    background-color: aliceblue;
+     align-items: center;
+     margin: auto;
+     margin-bottom: 20px;
+     border-bottom-left-radius: 30%;
+   }
+   .about-heading-container{
+     width: 90%;
+   }
+   .about-heading{
+   font-size: 50px;
+   }
+   .about-para{
+     font-size: 20px;
+   }
+   .about-image{
+     border-radius: 150px 50px 150px 0px;
+   }
+   .about-partner-content{
+     margin-bottom: 30px;
+   }
+   .about-partner-heading{
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 480px){
+  .about-container{
+    margin-bottom: 0px;
+    border-bottom-left-radius: 0%;
+  }
+  .about-heading-container{
+    width: 90%;
+    padding-top: 10px;
+  }
+  .about-content{
+    margin: 5px;
+  }
+  .about-heading{
+  font-size: 40px;
+  }
+  .about-para{
+    font-size: 18px;
+  }
+  .about-image{
+    width: 99%;
+    border-radius: 0px 100px 0px 100px;
+  }
+  .about-partner-container{
+    padding-top: 15px;
+    width: 90%;
+  }
+  .about-partner-heading{
+    font-size: 35px;
+  }
+  .about-partner-para{
+  font-size: 18px;
+  }
+}

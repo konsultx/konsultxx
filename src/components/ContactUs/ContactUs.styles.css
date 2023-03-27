@@ -1,0 +1,224 @@
+
+.contact-us-wrapper{
+margin: auto;
+width: 1400px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.contact-us-image-container{
+  width:45%;  
+}
+.contact-us-image{
+  width:100%;
+  height: 100%;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+.contact-us-container{
+  /* background-color: rgb(225, 229, 231); */
+  background-color: rgb(243, 249, 251);
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px gray;
+  width: 40%;
+  padding: 70px ;
+  border: 1px solid black;
+}
+.contact-us-heading{
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px; 
+}
+.konsultx-email{
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  background-color:  rgb(246, 246, 246);
+  border-radius: 10px;
+}
+.konsultx-email-icon{
+  width: 50px;
+}
+.konsultx-span{
+  color: #212121;
+  font-size: 35px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.contact-us-para{
+  font-size: 30px;
+text-align: center;
+font-weight: 600;
+}
+.form-input {
+  border-style: hidden;
+  border-bottom: 1px solid rgba(19, 19, 19, 0.4);
+  margin-top: 30px;
+  width: 99%;
+  height: 50px;
+  background: rgb(196, 224, 238);
+  text-align: start;
+  color: #212121;
+  padding-left: 10px;
+  font-size: 20px;
+  line-height: 20px;
+}
+.form-input::placeholder {
+  padding-left: 0;
+  color: #212121;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: 'Montserrat';
+  background: rgb(196, 224, 238);
+}
+.form-textarea{
+  height: 100px;
+  padding: 10px;
+  width: 97%;
+}
+.contactUs-btn {
+  width: 100%;
+  height: 50px;
+  border: 1px solid rgb(116, 183, 207);
+  background: rgb(196, 224, 238);
+  box-shadow: 2px 2px 2px rgb(127, 189, 212);
+  border-radius: 8px;
+  font-family: 'Montserrat';
+  font-weight: 600;
+  font-size: 24px;
+  margin-top: 50px;
+}
+h3{
+  font-size: 30px;
+  margin-top: 30px;
+}
+.media-icons {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.media-icons img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin-right: 23px;
+}
+@media screen and (max-width: 1200px){
+  .contact-us-wrapper{
+    width: 99%;
+    }
+    .contact-us-container{
+      padding: 40px ;
+    }
+    .konsultx-email-icon{
+      width: 40px;
+    }
+}
+@media screen and (max-width: 992px){
+  .contact-us-container{
+    padding: 30px ;
+  }
+  .konsultx-span{
+    font-size: 30px;
+  }
+  h3{
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 768px){
+  .contact-us-wrapper{
+    background-image: url('../../assets/contactUs.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    }
+    .contact-us-image-container{ 
+      display: none; 
+    } 
+    .contact-us-container{
+      background-color: rgba(203, 238, 250, 0.6);
+      width: 70%;
+      padding: 10px 40px;
+      margin-bottom: 10px;
+    }
+    .contact-us-heading{
+      margin-bottom: 20px;
+    }
+    .konsultx-email{
+      margin-bottom: 20px;
+      background-color:  rgb(246, 246, 246, 0.1);
+    }
+    .konsultx-email-icon{
+      width: 40px;
+    }
+    .konsultx-span{
+      font-size: 30px;
+    }
+    .contact-us-para{
+      font-size: 20px;
+    }
+    .form-input {
+      margin-top: 20px;
+      height: 40px;
+      line-height: 18px;
+    }
+    .form-input::placeholder {
+      font-size: 22px;
+    }
+    .form-textarea{
+      height: 50px;
+    }
+    .contactUs-btn {
+      width: 60%;
+      height: 40px;
+      margin-top: 20px;
+    }
+    h3{
+      font-size: 25px;
+    }
+    .media-icons {
+      margin-top: 20px;
+      margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 480px){
+ 
+   .contact-us-heading{
+    font-size: 25px;
+  }
+  .konsultx-email-icon{
+    width: 22px;
+  }
+  .konsultx-span{
+    font-size: 20px;
+  }
+  .contact-us-para{
+    font-size: 16px;
+  }
+  .form-input {
+    height: 30px;
+  }
+  .form-input::placeholder {
+    font-size: 20px;
+  }
+  .form-textarea{
+    height: 40px;
+  }
+  .contactUs-btn {
+    width: 60%;
+    font-size: 20px;
+  }
+  h3{
+    font-size: 18px;
+  }
+  .media-icons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .media-icons img {
+    width: 30px;
+    height: 30px;
+  }
+    
+}
