@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/Konsultxx/static/css/main.893039b7.css",
+    "main.js": "/Konsultxx/static/js/main.3ac4f761.js",
+    "static/js/787.8e9efe59.chunk.js": "/Konsultxx/static/js/787.8e9efe59.chunk.js",
+    "static/media/wrapper6.jpg": "/Konsultxx/static/media/wrapper6.9a8ef093ce5e1de1897a.jpg",
+    "static/media/mainwrapper.jpg": "/Konsultxx/static/media/mainwrapper.0226ed618e6905db7d15.jpg",
+    "static/media/logo6.png": "/Konsultxx/static/media/logo6.00dad2dff98918770799.png",
+    "static/media/contactUs.jpg": "/Konsultxx/static/media/contactUs.48bf46d9753519dfb6a0.jpg",
+    "index.html": "/Konsultxx/index.html",
+    "main.893039b7.css.map": "/Konsultxx/static/css/main.893039b7.css.map",
+    "main.3ac4f761.js.map": "/Konsultxx/static/js/main.3ac4f761.js.map",
+    "787.8e9efe59.chunk.js.map": "/Konsultxx/static/js/787.8e9efe59.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.893039b7.css",
+    "static/js/main.3ac4f761.js"
+  ]
+}
