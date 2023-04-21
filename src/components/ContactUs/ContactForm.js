@@ -18,10 +18,8 @@ const sendEmail = (e) => {
     process.env.REACT_APP_USER_ID //YOUR_PUBLIC_KEY in account general
   ).then((result) => {
     console.log(result.text);
-    alert('SUBMITTED')
   }, (error) =>{
     console.log(error.text);
-    alert("FAILED...", error);
   });
   setStatus("Submit");
   setOpenModal(true);
